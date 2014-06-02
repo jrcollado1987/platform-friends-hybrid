@@ -7,7 +7,7 @@
     <ProjectName>platform-friends-hybrid</ProjectName>
     <IsRunnable>true</IsRunnable>
     <AndroidPermissions>android.permission.ACCESS_COARSE_LOCATION;android.permission.ACCESS_FINE_LOCATION;android.permission.ACCESS_LOCATION_EXTRA_COMMANDS;android.permission.ACCESS_NETWORK_STATE;android.permission.ACCOUNT_MANAGER;android.permission.BROADCAST_STICKY;android.permission.CAMERA;android.permission.GET_ACCOUNTS;android.permission.INTERNET;android.permission.MANAGE_ACCOUNTS;android.permission.MODIFY_AUDIO_SETTINGS;android.permission.READ_CONTACTS;android.permission.READ_PHONE_STATE;android.permission.RECEIVE_SMS;android.permission.RECORD_AUDIO;android.permission.VIBRATE;android.permission.WRITE_CONTACTS;android.permission.WRITE_EXTERNAL_STORAGE</AndroidPermissions>
-    <CorePlugins>com.phonegap.plugins.barcodescanner;org.apache.cordova.battery-status;org.apache.cordova.camera;org.apache.cordova.media-capture;org.apache.cordova.console;org.apache.cordova.contacts;org.apache.cordova.device;org.apache.cordova.device-motion;org.apache.cordova.device-orientation;org.apache.cordova.file;org.apache.cordova.file-transfer;org.apache.cordova.geolocation;org.apache.cordova.globalization;org.apache.cordova.inappbrowser;org.apache.cordova.keyboard;org.apache.cordova.media;org.apache.cordova.network-information;org.apache.cordova.dialogs;com.phonegap.plugins.PushPlugin;org.apache.cordova.splashscreen;com.phonegap.plugins.sqlite;com.telerik.plugin.eqatecanalytics;com.telerik.Cordova-MobileTestingExtension;org.apache.cordova.vibration</CorePlugins>
+    <CorePlugins>com.phonegap.plugins.barcodescanner;org.apache.cordova.battery-status;org.apache.cordova.camera;org.apache.cordova.media-capture;org.apache.cordova.console;org.apache.cordova.contacts;org.apache.cordova.device;org.apache.cordova.device-motion;org.apache.cordova.device-orientation;org.apache.cordova.file;org.apache.cordova.file-transfer;org.apache.cordova.geolocation;org.apache.cordova.globalization;org.apache.cordova.inappbrowser;org.apache.cordova.keyboard;org.apache.cordova.media;org.apache.cordova.network-information;org.apache.cordova.dialogs;com.phonegap.plugins.PushPlugin;org.apache.cordova.splashscreen;com.phonegap.plugins.sqlite;org.apache.cordova.statusbar;com.telerik.plugin.eqatecanalytics;com.telerik.Cordova-MobileTestingExtension;org.apache.cordova.vibration</CorePlugins>
     <DeviceOrientations>Portrait;Landscape</DeviceOrientations>
     <iOSStatusBarStyle>Default</iOSStatusBarStyle>
     <AndroidHardwareAcceleration>true</AndroidHardwareAcceleration>
@@ -15,12 +15,11 @@
     <BundleVersion>1.0</BundleVersion>
     <iOSDisplayName />
     <iOSDeviceFamily>1;2</iOSDeviceFamily>
-    <iOSBackgroundMode>audio;location;external-accessory;bluetooth-central;bluetooth-peripheral</iOSBackgroundMode>
+    <iOSBackgroundMode>audio;location;newsstand-content;external-accessory;bluetooth-central;bluetooth-peripheral</iOSBackgroundMode>
     <AndroidVersionCode>1</AndroidVersionCode>
-    <DisplayName />
-    <WP8SupportedResolutions>
-    </WP8SupportedResolutions>
-    <Author />
+    <DisplayName>friends</DisplayName>
+    <WP8SupportedResolutions>ID_RESOLUTION_WVGA;ID_RESOLUTION_HD720P</WP8SupportedResolutions>
+    <Author>jr</Author>
     <Description>platform-friends-hybrid</Description>
     <WP8Requirements />
     <WP8Capabilities />
